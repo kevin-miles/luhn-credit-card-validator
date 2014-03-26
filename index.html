@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<head>
+    <title>Credit Card Validation</title>
+
+    <script type="text/javascript" src="js/check-valid-cc.js"></script>
+    <script type="text/javascript">
+    	window.onload = init;
+    	
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/sticky-footer.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Begin page content -->
+    <div class="container">
+        <div class="page-header">
+            <h1>Credit Card Validation</h1>
+        </div>
+        <p class="lead">Validate credit card numbers accurately using the <a href="http://en.wikipedia.org/wiki/Luhn_algorithm">Luhn Algorithm</a>.</p>
+        <form class="form-inline">
+            <div class="row">
+                <div class="col-xs-6">
+                    	<div class="controls-inline">
+                        	<input type="text" id="ccnum" class="form-control input-small" placeholder="Credit Card #">
+                   			<button name="validate" id="validate" class="btn btn-primary">Validate</button>
+                   			<span id="status" class="glyphicon"></span>
+                    </div>
+                    <span class="help-block"></span>
+                </div>
+            </div>
+        </form>
+    </div>
+
+        <div id="footer">
+            <div class="container">
+                <p class="text-muted">Happily created by <a href="https://github.com/nested">Kevin Miles</a> using <a href="http://getbootstrap.com">Bootstrap</a> and the <a href="http://en.wikipedia.org/wiki/Luhn_algorithm">Luhn Algorithm</a>.</p>
+            </div>
+        </div>
+
+</body>
+
+</html>
