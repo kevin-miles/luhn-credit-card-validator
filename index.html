@@ -6,8 +6,7 @@
 
     <script type="text/javascript" src="js/check-valid-cc.js"></script>
     <script type="text/javascript">
-    	window.onload = init;
-    	
+    window.onload = init;
     </script>
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -22,14 +21,16 @@
         <div class="page-header">
             <h1>Credit Card Validation</h1>
         </div>
-        <p class="lead">Validate credit card numbers accurately using the <a href="http://en.wikipedia.org/wiki/Luhn_algorithm">Luhn Algorithm</a>.</p>
+        <p class="lead">Validate credit card numbers accurately using the <a href="http://en.wikipedia.org/wiki/Luhn_algorithm" target="_blank">Luhn Algorithm</a>.</p>
+        <small>Test credit card numbers available <a href="http://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/credit_card_numbers.htm" target="_blank">here</a>.</small>
+        <small>Only numeric characters are accepted as valid input.</small>
         <form class="form-inline">
             <div class="row">
                 <div class="col-xs-6">
-                    	<div class="controls-inline">
-                        	<input type="text" id="ccnum" class="form-control input-small" placeholder="Credit Card #">
-                   			<button name="validate" id="validate" class="btn btn-primary">Validate</button>
-                   			<span id="status" class="glyphicon"></span>
+                    <div class="controls-inline">
+                        <input type="text" id="ccnum" class="form-control input-small" placeholder="Credit Card #">
+                        <button name="validate" id="validate" class="btn btn-primary">Validate</button>
+                        <span id="status" class="glyphicon"></span>
                     </div>
                     <span class="help-block"></span>
                 </div>
@@ -37,11 +38,11 @@
         </form>
     </div>
 
-        <div id="footer">
-            <div class="container">
-                <p class="text-muted">Happily created by <a href="https://github.com/nested">Kevin Miles</a> using <a href="http://getbootstrap.com">Bootstrap</a> and the <a href="http://en.wikipedia.org/wiki/Luhn_algorithm">Luhn Algorithm</a>.</p>
-            </div>
+    <div id="footer">
+        <div class="container">
+            <p class="text-muted">Happily created by <a href="https://github.com/nested" target="_blank">Kevin Miles</a> using <a href="http://getbootstrap.com" target="_blank">Bootstrap</a> and the <a href="http://en.wikipedia.org/wiki/Luhn_algorithm" target="_blank">Luhn Algorithm</a>.</p>
         </div>
+    </div>
 
 </body>
 
